@@ -5,6 +5,10 @@
 }
 
 body {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
   font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji;
 }
 

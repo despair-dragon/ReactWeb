@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--tw-bag1);
-  height: 300px;
+  height: clamp(16.875rem, 30vw, 18.75rem);
 }
 
 /*# sourceMappingURL=Footer.css.map */
