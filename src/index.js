@@ -9,12 +9,14 @@ import './style/theme.scss'
 import './style/global.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-      <Navbar/>
-      <App/>
-      <Footer/>
-  </React.StrictMode>
-);
+setInterval(() =>{
+    root.render(
+        <React.StrictMode>
+            <Navbar/>
+            <App/>
+            <Footer/>
+        </React.StrictMode>
+    );
+}, 0)
 
 reportWebVitals();

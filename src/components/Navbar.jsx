@@ -23,6 +23,7 @@ export default function Navbar() {
         }
     }
 
+
     return (
         <div className="navbar" id='navbar'>
             <div className="font-navbar" id='logo'>
