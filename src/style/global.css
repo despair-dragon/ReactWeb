@@ -4,4 +4,23 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@media (max-width: 960px) {
+  :root {
+    --tw-display: ;
+  }
+}
+@media (max-width: 550px) {
+  :root {
+    --tw-display: none;
+  }
+}
+
 /*# sourceMappingURL=global.css.map */
