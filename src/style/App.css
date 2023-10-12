@@ -1,3 +1,7 @@
-
+.app {
+  padding-top: 90px;
+  background-image: radial-gradient(circle at top center, var(--bg3), var(--bg2));
+  height: 82px;
+}
 
 /*# sourceMappingURL=App.css.map */
