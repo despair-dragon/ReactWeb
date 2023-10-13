@@ -34,6 +34,72 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <div className='pc'>
+                <div>
+                    <div className='item'>
+                        <div className='item-block' style={{marginBottom: '50px'}}>
+                            <h3 className='font-main'>Community</h3>
+                            <div>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Discord
+                                    </a>
+                                </p>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Twitter
+                                    </a>
+                                </p>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div className='item-block' style={{marginLeft: '20%', marginRight: '20%', marginBottom: '50px'}}>
+                            <h3 className='font-main'>Content</h3>
+                            <div>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Plugins
+                                    </a>
+                                </p>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Docs
+                                    </a>
+                                </p>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Developers
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div className='item-block' style={{marginBottom: '50px'}}>
+                            <h3 className='font-main'>Help</h3>
+                            <div>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Documentation
+                                    </a>
+                                </p>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Contact Us
+                                    </a>
+                                </p>
+                                <p className='font-under'>
+                                    <a href='-'>
+                                        Cookie Preferences
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

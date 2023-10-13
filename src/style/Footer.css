@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--tw-bag1);
-  height: clamp(16.875rem, 30vw, 18.75rem);
+  height: clamp(10.875rem, 25vw, 11.75rem);
 }
 
 .center-footer {
@@ -37,8 +37,48 @@
   color: #5a88ce;
 }
 
-.mobile {
-  display: var(--tw-display-mobile);
+.mobail {
+  display: var(--tw-display-mobail);
+  margin-bottom: 15px;
+}
+
+.pc {
+  display: var(--tw-display-pc);
+}
+
+.item {
+  color: var(--text-normal);
+  margin-top: 5px;
+  font-size: clamp(1.1rem, 1vw, 2rem);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.font-main {
+  color: var(--text-light);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.item-block {
+  display: grid;
+}
+
+.font-under {
+  margin-bottom: 4px;
+  color: var(--text-muted);
+}
+
+.font-under a {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.font-under a:hover {
+  transition: 150ms;
+  color: var(--text-light);
 }
 
 /*# sourceMappingURL=Footer.css.map */

@@ -18,20 +18,22 @@ a {
   width: 0;
 }
 
-@media (max-width: 960px) {
+@media (min-width: 550px) {
   :root {
+    --tw-display-pc: block;
     --display-navbar: -;
     --position-widht: fixed;
-    --tw-display-mobile: block;
+    --tw-display-mobail: none;
     --tw-display: ;
   }
 }
 
 @media (max-width: 550px) {
   :root {
+    --tw-display-pc: none;
     --display-navbar: none;
     --position-widht: none;
-    --tw-display-mobile: block;
+    --tw-display-mobail: block;
     --tw-display: none;
   }
 }
