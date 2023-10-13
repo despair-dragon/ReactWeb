@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  background-color: black;
   height: 100%;
   width: 100%;
   min-width: 100%;
@@ -19,12 +20,18 @@ a {
 
 @media (max-width: 960px) {
   :root {
+    --display-navbar: -;
+    --position-widht: fixed;
+    --tw-display-mobile: block;
     --tw-display: ;
   }
 }
 
 @media (max-width: 550px) {
   :root {
+    --display-navbar: none;
+    --position-widht: none;
+    --tw-display-mobile: block;
     --tw-display: none;
   }
 }

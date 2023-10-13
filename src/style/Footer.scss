@@ -2,3 +2,35 @@
   background-color: var(--tw-bag1);
   height: clamp(16.875rem, 30vw, 18.75rem);
 }
+.center-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: var(--text-normal);
+}
+.item-butt-footer {
+  color: var(--text-normal);
+  margin-top: 5px;
+  font-size: clamp(1.1rem, 1vw, 2rem);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.item-age {
+  margin-top: 5px;
+  font-size: clamp(1.1rem, 1vw, 2rem);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.item-butt-footer:hover {
+  transition: 300ms;
+  color: var(--text-light);
+}
+.item-social:hover {
+  transition: 150ms;
+  color: #5a88ce;
+}
+.mobile {
+  display: var(--tw-display-mobile);
+}
