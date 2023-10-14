@@ -21,6 +21,12 @@ a {
   width: 0;
 }
 
+@media (min-width: 980px), (max-width: 980px) {
+  :root {
+    --width-code: 100%;
+    --margin-code: 40px 0 0 0;
+  }
+}
 @media (min-width: 550px) {
   :root {
     --tw-display-pc: block;
@@ -32,6 +38,9 @@ a {
 }
 @media (max-width: 550px) {
   :root {
+    --margin-code: 40px 0 0 0;
+    --display-code: block;
+    --width-code: 100%;
     --tw-display-pc: none;
     --display-navbar: none;
     --position-widht: none;
