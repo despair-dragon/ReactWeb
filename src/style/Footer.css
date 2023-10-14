@@ -48,9 +48,9 @@
 
 .item {
   color: var(--text-normal);
-  margin-top: 5px;
   font-size: clamp(1.1rem, 1vw, 2rem);
-  justify-content: center;
+  margin: 5px 15% 0 15%;
+  justify-content: space-between;
   align-items: center;
   display: flex;
 }
@@ -79,6 +79,19 @@
 .font-under a:hover {
   transition: 150ms;
   color: var(--text-light);
+}
+
+.item-box {
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 15px;
+  margin: 0 15% 0 15%;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.item-social-pc {
+  display: flex;
 }
 
 /*# sourceMappingURL=Footer.css.map */
