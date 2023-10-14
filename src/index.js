@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from "./components/Navbar";
 import App from "./components/App";
 import Footer from "./components/Footer";
+import NavCode from "./components/NavCode";
 import './style/theme.scss'
 import './style/global.scss'
 

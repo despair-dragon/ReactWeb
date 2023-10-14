@@ -4,9 +4,60 @@
   --bg3: #14151b;
   --bg4: #20212b;
   --bg2: #0c0d10;
+  --bg2-alt: #101116;
+  --bg3-alt: #191a21;
   --tw-color1: white;
   --text-light: #f1f1f1;
   --text-normal: #bfc4c9;
   --text-muted: #95989d;
   --text-link: #5a88ce;
+  --sp-space-1: 4px;
+  --sp-space-2: 8px;
+  --sp-space-3: 12px;
+  --sp-space-4: 16px;
+  --sp-space-5: 20px;
+  --sp-space-6: 24px;
+  --sp-space-7: 28px;
+  --sp-space-8: 32px;
+  --sp-space-9: 36px;
+  --sp-space-10: 40px;
+  --sp-space-11: 44px;
+  --sp-colors-accent: #149eca;
+  --sp-colors-clickable: #999;
+  --sp-colors-disabled: #fff;
+  --sp-colors-error: #811e18;
+  --sp-colors-error-surface: #ffcdca;
+  --sp-colors-surface1: #16181d;
+  --sp-colors-surface2: #343a46;
+  --sp-syntax-color-plain: #fff;
+  --sp-syntax-color-comment: #757575;
+  --sp-syntax-color-keyword: #77b7d7;
+  --sp-syntax-color-tag: #dfab5c;
+  --sp-syntax-color-punctuation: #fff;
+  --sp-syntax-color-definition: #86d9ca;
+  --sp-syntax-color-property: #77b7d7;
+  --sp-syntax-color-static: #c64640;
+  --sp-syntax-color-string: #977cdc;
+  --sp-syntax-color-string-green: #60a670;
+}
+.sp-syntax-punctuation {
+  color: var(--sp-syntax-color-punctuation);
+}
+.sp-syntax-keyword {
+  color: var(--sp-syntax-color-keyword);
+}
+.sp-syntax-definition {
+  color: var(--sp-syntax-color-definition);
+}
+.sp-syntax-property {
+  color: var(--sp-syntax-color-property);
+}
+.syntax-string {
+  color: var(--sp-syntax-color-string);
+}
+.sp-syntax-string-green {
+  color: var(--sp-syntax-color-string-green);
+}
+.syntax-tag {
+  color: var(--sp-syntax-color-tag);
 }
