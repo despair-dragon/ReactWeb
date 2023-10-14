@@ -49,8 +49,7 @@
 .item {
   color: var(--text-normal);
   font-size: clamp(1.1rem, 1vw, 2rem);
-  margin: 5px 15% 0 15%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   display: flex;
 }
@@ -82,16 +81,25 @@
 }
 
 .item-box {
-  justify-content: space-between;
+  justify-content: space-evenly;
   display: flex;
   padding-bottom: 15px;
-  margin: 0 15% 0 15%;
   text-align: center;
   color: var(--text-muted);
 }
 
 .item-social-pc {
   display: flex;
+}
+
+.width-center {
+  display: flex;
+  justify-content: center;
+}
+
+.width {
+  justify-content: center;
+  width: 800px;
 }
 
 /*# sourceMappingURL=Footer.css.map */
