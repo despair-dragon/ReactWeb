@@ -39,6 +39,16 @@
   --sp-syntax-color-static: #c64640;
   --sp-syntax-color-string: #977cdc;
   --sp-syntax-color-string-green: #60a670;
+  --accent: #3a71c1;
+  --accent-hover: #2f5b9d;
+  --accent-faded: rgba(58, 113, 193, 0.4);
+  --danger: #c13a3a;
+  --danger-hover: #992e2e;
+  --danger-faded: rgb(193, 58, 58, 0.4);
+  --text-light: #f1f1f1;
+  --text-normal: #bfc4c9;
+  --text-muted: #95989d;
+  --text-link: #5a88ce;
 }
 .sp-syntax-punctuation {
   color: var(--sp-syntax-color-punctuation);
