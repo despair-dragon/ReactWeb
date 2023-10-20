@@ -32,10 +32,12 @@ a {
     --position-widht: fixed;
     --tw-display-mobail: none;
     --tw-display: ;
+    --display-app: flex;
   }
 }
 @media (max-width: 550px) {
   :root {
+    --display-app: -;
     --margin-code: 40px 0 0 0;
     --display-code: block;
     --width-code: 100%;

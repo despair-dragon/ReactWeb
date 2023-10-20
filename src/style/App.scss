@@ -3,3 +3,88 @@
   background-image: radial-gradient(circle at top center,var(--bg3),var(--bg2));
   height: 1000px;
 }
+.app-center {
+  margin-top: 7%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+}
+.title-line {
+  margin: 0 5% 0 5%;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: #fff;
+}
+.align-center {
+  align-items: center;
+}
+.down-title {
+  display: block;
+  color: var(--text-muted);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  margin-top: 5px;
+}
+@media screen and (max-width: 950px) {
+  .title {
+    font-size: 38px;
+  }
+}
+.btn {
+  width: 256px;
+  height: 48px;
+}
+.downloads-container {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.btn-container {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  text-align: center;
+}
+.btn-container-line {
+  display: var(--display-app);
+}
+#downloads-count {
+  font-weight: 600;
+  color: var(--text-normal);
+}
+.btn {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 150ms ease background,150ms ease box-shadow,150ms ease color,150ms ease border;
+  cursor: pointer;
+  padding: 8px 12px;
+  user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.btn.btn-secondary {
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255,.05);
+  color: var(--text-normal);
+}
+.btn-icon {
+  margin-right: 105px;
+}
