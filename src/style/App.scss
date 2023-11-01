@@ -19,10 +19,15 @@
 .title-line {
   margin: 0 5% 0 5%;
 }
-
 .btn-primary {
   background-color: var(--accent);
   color: #fff;
+}
+.btn-primary:hover {
+  background-color: #2f5b9d;
+}
+.btn:focus {
+  box-shadow: 0 0 0 4px var(--accent-faded)
 }
 .align-center {
   align-items: center;
@@ -72,19 +77,26 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: 150ms ease background,150ms ease box-shadow,150ms ease color,150ms ease border;
+  transition: 150ms ease background, 150ms ease box-shadow, 150ms ease color, 150ms ease border;
   cursor: pointer;
   padding: 8px 12px;
   user-select: none;
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis
 }
 .btn.btn-secondary {
   background-color: transparent;
-  border: 2px solid rgba(255,255,255,.05);
-  color: var(--text-normal);
+  border: 2px solid rgba(255, 255, 255, .05);
+  color: var(--text-normal)
+}
+
+.btn.btn-secondary:hover {
+  border-color: rgba(255, 255, 255, .1)
 }
 .btn-icon {
   margin-right: 105px;
+}
+.btn.btn.btn-primary:hover {
+  background: var(--accent-hover)
 }

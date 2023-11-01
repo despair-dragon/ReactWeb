@@ -9,7 +9,8 @@ export default function NavCode() {
             </div>
             <div>
                 <h5 className='text-open-'>
-                    You can view the source code and make sure there are no viruses.</h5>
+                    You can view the source code and make sure there are no viruses.
+                </h5>
             </div>
             <div className='width-navbar'>
                 <div className='navbar-code-preview'>
